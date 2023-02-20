@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#result{
+    flex-direction: row;
+}
+.sub-container{
+    margin: 50px;
+}
