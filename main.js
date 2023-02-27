@@ -76,11 +76,11 @@ function main() {
     document.getElementById("bmr").innerHTML = bmr.toString()
     document.getElementById("tdee").innerHTML = tdee.toString()
 }
-function validation(param)
+/*function validation(param)
     while (param.validity.valueMissing) {
         param.setCustomValidity("ENTER THE VALUE!!!")
     }
 function validationAll()
     validation(weight)
     validation(height)
-    validation(age)
+    validation(age)*/

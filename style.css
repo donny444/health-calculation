@@ -1,11 +1,47 @@
+body{
+    background-color: orange;
+    margin: 0;
+    /*text-align: center;*/
+}
 .container{
     display: flex;
+    margin: 0 auto;
+    background-color: lightgreen;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#upper{
     flex-direction: column;
-    justify-content: center;
+    inline-size: 550px;
+    padding: 15px 15px 25px;
+}
+#heading{
+    display: block;
+    text-align: center;
+    background-color: whitesmoke;
+}
+#form{
+    text-align: left;
+}
+form h3{
+    display: inline-block;
+    padding: 0px 10px;
+    background-color: whitesmoke;
+}
+li{
+    padding-bottom: 25px;
+}
+.submit{
+    background-color: orange;
+}
+#lower{
+    flex-direction: row;
+    inline-size: 600px;
+    margin-top: 50px;
 }
 #result{
-    flex-direction: row;
+    text-align: center;
 }
 .sub-container{
-    margin: 50px;
+    margin: 30px 60px 0px;
 }
