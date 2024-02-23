@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: orange;
+    margin: 0;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    background-color: lightgreen;
+    color: brown;
+}
+#upper{
+    flex-direction: column;
+    inline-size: 550px;
+    padding: 2em;
+}
+#heading{
+    display: block;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 0 1em;
+}
+#form{
+    text-align: left;
+}
+form h3{
+    display: inline-block;
+    padding: 0px 0.6em;
+    background-color: whitesmoke;
+}
+li{
+    padding-bottom: 1.4em;
+}
+#submit:hover{
+    background-color: orange;
+}
+#lower{
+    flex-direction: row;
+    justify-content: space-evenly;
+    inline-size: 550px;
+    padding: 2em;
+}
+#result{
+    text-align: center;
+}
