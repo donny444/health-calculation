@@ -1,6 +1,18 @@
 document.getElementById("submit").addEventListener("click", e => {
-    e.preventDefault()
+    e.preventDefault();
     main()
+
+    var formData = new FormData(this)
+
+    var xhr = new XMLHttpRequest()
+    xhr.open("POST", "submit.php", true)
+    xhr.onreadystatechange = function() {
+        if(xhr.readyState == 4 && xhr.status == 200) {
+            console.log("Form submitted successfully")
+        }
+    }
+
+    xhr.send(formData)
 })
 /*function main() {
     define()
