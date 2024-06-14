@@ -33,7 +33,7 @@ CREATE TABLE `values` (
   `height` int(11) NOT NULL,
   `age` int(11) NOT NULL,
   `sex` varchar(6) NOT NULL,
-  `frequently` decimal(4,3) NOT NULL,
+  `frequency` decimal(4,3) NOT NULL,
   `bmi` int(11) NOT NULL,
   `bmr` int(11) NOT NULL,
   `tdee` int(11) NOT NULL
