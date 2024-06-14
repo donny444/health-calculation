@@ -3,7 +3,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "health_calculation";
+    $dbname = "health-calculation";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -33,6 +33,21 @@
     $tdee = (int)($frequently*$bmr);
 
     $stmt->execute();
+
+    // echo `<div class="container" id="lower">
+    //         <div class="result">
+    //             <h2>BMI Value</h2>
+    //             <h2 id="bmi">$bmi</h2>
+    //         </div>
+    //         <div class="result">
+    //             <h2>BMR Value</h2>
+    //             <h2 id="bmr">$bmr</h2>
+    //         </div>
+    //         <div class="result">
+    //             <h2>TDEE Value</h2>
+    //             <h2 id="tdee">$tdee</h2>
+    //         </div>
+    //     </div>`;
 
     $stmt->close();
     $conn->close();

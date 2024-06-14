@@ -1,8 +1,9 @@
-document.getElementById("submit").addEventListener("click", e => {
+document.getElementById("user_input").addEventListener("submit", e => {
     e.preventDefault();
     main()
 
-    var formData = new FormData(this)
+    var form = document.getElementById("user_input");
+    var formData = new FormData(form);
 
     var xhr = new XMLHttpRequest()
     xhr.open("POST", "submit.php", true)

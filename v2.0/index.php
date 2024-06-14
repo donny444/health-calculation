@@ -16,7 +16,7 @@
             <h3>A webpage contains BMI, BMR and TDEE calculation</h3>
         </div>
         <div id="form">
-            <form id="user_input" action="submit.php">
+            <form id="user_input" method="POST" action="submit.php">
                 <h3>Enter the values</h3>
                 <ul>
                     <li>
